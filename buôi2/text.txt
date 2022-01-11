@@ -1,2 +1,3 @@
 đây là commit
 đây là code thay đổigit  
+commit thứ hai nhé
