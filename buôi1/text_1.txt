@@ -1,10 +1,6 @@
 conflict
 conflict thứ nhất
-<<<<<<< HEAD
 cái thứ 5 
 cái thứ 6 c\
 cái thứ 7s
-=======
-đây là cái thứ ba nè
-cái thứ 4 đây
->>>>>>> 5fe132981163aafd6aadc904598028e00898947c
+cái thứ 8 nè
