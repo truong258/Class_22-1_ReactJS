@@ -1,6 +1,4 @@
 conflict
-<<<<<<< HEAD
 conflict thứ nhất
-=======
-đây là conflict thứ hai nhé
->>>>>>> 7c459cd9903e6ea035356c856a0bf50dc8178eac
+đây là cái thứ ba nè
+cái thứ 4 đây
