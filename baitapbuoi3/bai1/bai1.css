@@ -1,0 +1,27 @@
+.img11{
+    width:600px;
+    height:auto;
+}
+.contain{
+    display: flex;
+    width:100%;
+}
+.contain_1{
+    width:50%;
+
+}
+.contain_2{
+    width:50%;
+}
+h1{
+    text-align: center;
+    color:red
+}
+span{
+    background-color: red;
+    font-size: 25px;
+    color:white;
+}
+p{
+    font-size: 20px;
+}
