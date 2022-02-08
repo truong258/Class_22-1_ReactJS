@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bai2.css">
+    <title>table and form</title>
+    <link rel="stylesheet" href="./bai5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+    <style>
+        .trong {
+            font-family: 'Neonderthaw', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <table border="1" style="border-collapse: collapse;">
+        <tr>
+            <td>
+                <form action="">
+                    <label for="">Họ và Tên</label>
+                </form>
+            </td>
+            <td>
+                <input type="text" name="" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Địa Chỉ</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Phone Number</label>
+            </td>
+            <td>
+                <input type="number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Khách Nhà Việt</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Chọn tour</label>
+            </td>
+            <td>
+                <input type="radio">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Phương Tiện</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Ghi Chú Thêm</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+
+    </table> -->
+
+    <form action="">
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <td>
+                    <label for="">Họ Và Tên</label>
+                </td>
+                <td>
+                    <input type="text" class="lable" placeholder="mai nguyễn nhật trường">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Địa Chỉ</label>
+                </td>
+                <td>
+                    <input type="text" class="lable2" placeholder="địa chỉ ở đây">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Phone Number</label>
+                </td>
+                <td>
+                    <input type="text" class="lable3" placeholder="80424092049">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="" class="lable">Khách Việt Nam</label>
+                </td>
+                <td>
+                    <input type="checkbox" checked>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Chọn Tour</label>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <optgroup label="Miền Bắc">
+                            <option value="Nha Trang-Đà Lạt">Nha Trang-Đà Lạt</option>
+                            <option value="Buông Mê Thuột-Gia Lai-Kon Tum">Buông Mê Thuột-Gia Lai-Kon Tum</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Phương Tiện</label>
+                </td>
+                <td>
+                    <input type="radio" value="Máy bay" name="phuongtien" checked>Máy Bay</input>
+                    <input type="radio" value="Ô Tô" name="phuongtien">Ô Tô</input>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Chọn sản phẩm tham gia</legend>
+                        <div class="field-set">
+                            <label for="">Người lớn</label>
+                            <input type="number" placeholder="6" class="lable4">
+                            <label for="">Trẻ em</label>
+                            <input type="number" placeholder="4" class="lable5">
+                        </div>
+
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Ghi Chú Thêm</label>
+                </td>
+                <td>
+                    <textarea rows="2" cols="8" class="area">có trẻ em dưới 6 tuổi có 2 người ăn chay</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" style="text-align: center; display: block; margin:auto;">Đăng Nhập</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p class="trong" style="color: red; text-align: center;">Bạn đã đăng kí thành công</p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
