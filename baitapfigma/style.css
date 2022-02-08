@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header {
+    height: 100vh;
+    background-image:url('./img/bacground1.png');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 55% 100%, 0 80%);
+    /* width:100%; */
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    display:flex;
+    padding-top:40px;
+    
+}
+.nav-social{
+    display:flex;
+    padding-top:40px;
+    font-size: 30px;
+}
+.icon{
+    color:white;
+    padding-left:20px;
+}
+.icon i:last-child{
+    margin-right: 20px;
+}
+.nav-list{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+.nav-item li:first-child{
+    padding-left:200px;
+}
+.nav-list:first-child{
+    padding-left:50px;
+    font-size: 20px;
+}
+.heading-primary{
+   margin: auto;
+    width:672px;
+    height:168px;
+    top:10px;
+    left:10px;
+    font-size: 74px;
+    color: white;
+    padding-left:100px;
+}
+
+
+
+.heading-description{
+    font-weight: 200;
+    width: 60%;
+    color: white;
+    margin:auto;
+    top:10px;
+    left:10px;
+    padding-left:250px;
+    margin-top:30px;
+}
+.button{
+    background-color: blue;
+    width:200px;
+    height:20px;
+    color:white;
+    text-decoration: none;
+    margin:auto;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}

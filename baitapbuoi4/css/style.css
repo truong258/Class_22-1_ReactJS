@@ -7,12 +7,6 @@
   --success-color: #28a745;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
