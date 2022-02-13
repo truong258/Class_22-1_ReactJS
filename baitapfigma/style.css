@@ -262,6 +262,7 @@ margin-top: -30rem;
 }
 .partner__item {
     border: 1px solid #eee;
+    height:120px;
 }
 
 .partner__item-name {
