@@ -1,0 +1,7 @@
+var có thể thay đổi giá trị được
+let cũng có thể thay đổi giá trị được
+var let khác nhau
+nếu khai báo 2 var cùng tên thì sẽ lấy cái giá trị mới nhất
+còn let khai báo 2 tên cùng nhau thì sẽ bị lỗi, tác dụng của let đặt tên biến không trùng nhau ngăn ngừa cái việc một biến không thể khai báo lại được nữa, khai báo có từ khóa khai báo, gán giá trị thì chỉ có bằng thôi
+null kiểu dữ liệu là object và giá trị của nó là null
+còn underfind nó chưa được khai báo và giá trị của nó là underfind
